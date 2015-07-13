@@ -3,6 +3,10 @@ exports.question = function (req, res) {
 	res.render('quizes/question', { pregunta:'Capital de Italia' });
 };            
 
+exports.creditos = function (req, res) {
+    res.render('quizes/author', { credito: 'Página creada por Cristian Morales' });
+};
+
 //get a respuestas
 exports.answer = function (req, res) {
 	
