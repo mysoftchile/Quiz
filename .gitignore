@@ -28,6 +28,7 @@ $RECYCLE.BIN/
 npm-debug.log
 .AppleDouble
 .LSOverride
+quiz.sqlite
 
 # Thumbnails
 ._*
