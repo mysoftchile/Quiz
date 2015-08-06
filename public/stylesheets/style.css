@@ -17,3 +17,31 @@ nav span             { margin: 0px 10px 0px 0px;
 .right 				 {float: right;}
 
 .quiz_img 			 { height: 150px; float: left;}
+
+.tabla_resultado_busq
+{
+    FONT-SIZE: 12px;
+    WIDTH: 50%;
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    padding:1px 1px 1px 1px;
+    text-align:left;
+    margin-top: 10px;
+}
+
+.titulo
+{
+	background: #ddd;
+	color: #2f4f4f;
+	border-bottom: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+	border-left: 2px solid #dadada;
+	border-top: 2px solid #dadada;
+	text-align: left;
+	font-weight: bold;
+}
+
+.botones
+{
+	text-align: center;
+}

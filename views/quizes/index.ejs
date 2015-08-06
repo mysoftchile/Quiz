@@ -3,9 +3,16 @@
 	<input type="submit" value="Buscar pregunta" />
 <form>
 <br/>
-<table>
+<table class="tabla_resultado_busq">
+<tr class="titulo">
+	<td>Pregunta:</td>
+	<td>Acción</td>
+<tr/>
 <% var i; for (i=0; i < quizes.length; i++) { %>        
- <tr><td><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta %></a></td></tr> 
+ <tr>
+ 	<td><a href="quizes/<%= quizes[i].id %>"><%= quizes[i].pregunta%></a></td>
+	<td class="botones"><a href="quizes/<%= quizes[i].id %>/edit">editar</a></td> 	
+ </tr> 
 <% } %>
 </table>
 <p>
