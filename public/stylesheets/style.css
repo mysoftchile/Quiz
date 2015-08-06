@@ -44,4 +44,13 @@ nav span             { margin: 0px 10px 0px 0px;
 .botones
 {
 	text-align: center;
+	width: 15%;
+}
+
+button
+{
+	 padding:1px 5px 1px 5px;
+	 height: :15px;
+	 font-size: 12px;
+
 }
