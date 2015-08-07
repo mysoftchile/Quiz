@@ -14,7 +14,12 @@ nav span             { margin: 0px 10px 0px 0px;
   					   display: inline-block;}
 
 #ErrorMsgs           { color: #f61; font-size: smaler}
-.right 				 {float: right;}
+.right 				 
+{
+	float: right;
+	font-family: arial;
+	font-size: 12px;
+}
 
 .quiz_img 			 { height: 150px; float: left;}
 
